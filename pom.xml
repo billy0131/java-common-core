@@ -832,7 +832,7 @@
 
 		<aspectj.version>1.7.4</aspectj.version>
 		<spring.version>4.1.4.RELEASE</spring.version>
-		<spring.data.jpa.version>1.4.1.RELEASE</spring.data.jpa.version>
+		<spring.data.jpa.version>1.11.23.RELEASE</spring.data.jpa.version>
 		<!-- hibernate -->
 		<hibernate.core.version>4.3.11.Final</hibernate.core.version>
 		<hibernate.ehcache.version>4.3.11.Final</hibernate.ehcache.version>
