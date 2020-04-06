@@ -1,0 +1,2 @@
+billyLoadBalance=com.ecwalk.common.other.dubbo.spi.service.loadBalance.BillyLoadBalance
+jiaLoadBalance=com.ecwalk.common.other.dubbo.spi.service.loadBalance.JiaLoadBalance

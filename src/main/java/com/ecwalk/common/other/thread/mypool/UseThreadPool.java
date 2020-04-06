@@ -65,10 +65,10 @@ public class UseThreadPool {
 	}
 	
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-//		ExecutorService pool=new ThreadPoolExecutor(2, 4, 3, TimeUnit.SECONDS, 
-//				new ArrayBlockingQueue<>(10),
-//				new ThreadPoolExecutor.DiscardOldestPolicy());
-		ExecutorService pool=Executors.newCachedThreadPool();
+		ExecutorService pool=new ThreadPoolExecutor(2, 4, 3, TimeUnit.SECONDS, 
+				new ArrayBlockingQueue<>(10),
+				new ThreadPoolExecutor.DiscardOldestPolicy());
+//		ExecutorService pool=Executors.newCachedThreadPool();
 		for(int i=0;i<6;i++){
 			Worker worker=new Worker("worker_"+i);
 			pool.execute(worker);
