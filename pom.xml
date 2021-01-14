@@ -914,7 +914,7 @@
 		<org.springside.version>4.2.2.GA</org.springside.version>
 
 		<cxf.version>3.0.3</cxf.version>
-		<poi.version>3.11</poi.version>
+		<poi.version>3.17</poi.version>
 		<com.ibm.mq.version>7.5.0.2</com.ibm.mq.version>
 
 		<!-- spring data redis -->
