@@ -888,7 +888,7 @@
 		<mybatis.version>3.2.7</mybatis.version>
 		<mybatis-spring.version>1.2.2</mybatis-spring.version>
 
-		<shiro.version>1.2.3</shiro.version>
+		<shiro.version>1.8.0</shiro.version>
 		<quartz.version>2.2.1</quartz.version>
 
 		<slf4j.version>1.7.5</slf4j.version>
